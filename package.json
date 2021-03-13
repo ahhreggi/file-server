@@ -1,0 +1,24 @@
+{
+  "name": "file-server",
+  "version": "1.0.0",
+  "description": "File server and client where: - Clients can connect to the server via TCP and send requests via commands - The server parses and validates commands to fulfill the request",
+  "main": "client.js",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahhreggi/file-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahhreggi/file-server/issues"
+  },
+  "homepage": "https://github.com/ahhreggi/file-server#readme"
+}
