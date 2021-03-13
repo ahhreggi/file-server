@@ -149,7 +149,7 @@ const sendInstructions = function(clientObj, verbose = false, delay = 0) {
     result += "---------------------------------------------------------------\n";
     result += "[ HELP ]\n\n";
     result += `  Send a server request via '<${green('action')}> <${blue('filename')}> <${red('data')}>'\n`;
-    result += `    > ${green('action')} = write, read, append, delete, find, get\n`;
+    result += `    > ${green('action')} = write, read, append, delete, find\n`;
     result += `    > ${blue('filename')} = the file name\n`;
     result += `    > ${red('data')} = the data to write\n`;
     result += "  Examples:\n";
