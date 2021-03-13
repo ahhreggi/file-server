@@ -231,6 +231,6 @@ server.on('connection', (client) => {
 
 // Server can run only on a specific port
 // Only one server per port
-server.listen(3000, () => {
+server.listen(3001, () => {
   console.log(`> ${cyan('Server is online.')}`);
 });
