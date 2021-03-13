@@ -1,8 +1,14 @@
 # File Server
 
 File server and client where:
-- Clients can connect to the server via TCP and send requests via commands
-- The server parses and validates commands to fulfill the request
+- Clients can connect to the server via TCP and send requests via commands to:
+  - Create a file on the server
+  - Read a file on the server
+  - Append data to a file on the server
+  - Delete a file on the server
+  - Search for files on the server
+- The server parses and validates commands before fulfilling the request
+
 
 ## Installation & Usage
 1. Clone or download this repository
@@ -40,7 +46,7 @@ File server and client where:
     [ HELP ]
 
       Send a server request via '<action> <filename> <data>'
-        > action = write, read, append, delete, find, get
+        > action = write, read, append, delete, find
         > filename = the file name
         > data = the data to write
       Examples:
